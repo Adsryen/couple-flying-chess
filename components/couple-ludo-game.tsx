@@ -836,12 +836,18 @@ export default function CoupleLudoGame() {
           <div className="development-notice-card">
             <div className="notice-header">
               <Sparkles size={20} className="notice-icon" />
-              <h3 className="notice-title">🚀 新版本开发计划</h3>
+              <h3 className="notice-title">🚀 新版本内测信息</h3>
             </div>
             <div className="notice-content">
               <p className="notice-text">
-                最近一段时间打算开发新版：<strong>房间模式</strong>，不必在同一个手机操作；任务使用各自的题库，减少不适的任务，保证任务能符合大家的偏好；根据偏好，<strong>AI生成任务</strong>；无账号匿名游戏，数据存储在本地；目前的想法就这样，如果有好的提议可以发送邮件到 
-                <a href="mailto:lishuang1@gmx.com" className="contact-email">lishuang1@gmx.com</a>
+                新版本内测地址：
+                <a href="https://v2.cpfly.top/" target="_blank" rel="noopener noreferrer" className="contact-email">https://v2.cpfly.top/</a>
+              </p>
+              <p className="notice-text">
+                内容反馈交流群（QQ）：<strong>1070223428</strong>
+              </p>
+              <p className="notice-text">
+                新版本重构了游戏模式：<strong>房间模式</strong>，可以异地游戏，各自有自己的题库，可以AI生成题库。当前可能无法支持太多用户游戏，有能力的也可以自己部署。当前处于内测阶段。
               </p>
             </div>
           </div>
