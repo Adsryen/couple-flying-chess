@@ -14,7 +14,7 @@ const audienceLabel: Record<Theme['audience'], string> = {
 
 export function ThemesView({ themes, onCreateTheme, onEditTheme }: ThemesViewProps) {
   return (
-    <div className="flex-1 flex flex-col overflow-y-auto no-scrollbar pb-24">
+    <div className="flex-1 min-h-0 flex flex-col overflow-y-auto no-scrollbar pb-24">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-2xl font-bold text-white">任务主题库</h2>
         <button

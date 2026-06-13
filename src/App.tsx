@@ -126,7 +126,7 @@ function App() {
           </div>
         </header>
 
-        <main className="flex-1 relative overflow-hidden">
+        <main className="flex-1 min-h-0 relative overflow-hidden">
           <div
             className={`absolute inset-0 flex flex-col px-6 pt-10 pb-10 transition-all duration-500 ease-in-out ${
               state.view === 'home'
@@ -143,7 +143,7 @@ function App() {
           </div>
 
           <div
-            className={`absolute inset-0 px-6 pt-4 transition-all duration-500 ease-in-out ${
+            className={`absolute inset-0 flex flex-col min-h-0 px-6 pt-4 transition-all duration-500 ease-in-out ${
               state.view === 'themes'
                 ? 'translate-x-0 opacity-100'
                 : 'opacity-0 pointer-events-none translate-x-full'
